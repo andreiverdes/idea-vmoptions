@@ -7,12 +7,12 @@
 # More info: https://docs.oracle.com/javase/8/docs/technotes/guides/vm/server.html
 -server
 
-# Set the initial Java heap size to 2048 MB (2GB). This is the amount of memory
+# Set the initial Java heap size to 8192 MB (8GB). This is the amount of memory
 # allocated for object allocation at startup. A larger initial heap can reduce
 # early garbage collections.
 -Xms8192m
 
-# Set the maximum Java heap size to 16384 MB (16GB). This limits the heap size to
+# Set the maximum Java heap size to 20480 MB (20GB). This limits the heap size to
 # prevent excessive memory usage.
 -Xmx20480m
 
