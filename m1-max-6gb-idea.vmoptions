@@ -37,7 +37,12 @@
 -XX:SoftRefLRUPolicyMSPerMB=50
 
 # Enable assertions. (Useful during development; consider disabling for production.)
--ea
+# -ea
+
+# Disable assertions. Assertions are primarily used during development to catch programming
+# errors, so disabling them in production can offer a slight performance boost by removing
+# the overhead of checking assertion conditions.
+-da
 
 # Disable certain HTTP authentication tunneling schemes, which can affect network
 # performance in some environments.
